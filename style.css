@@ -9,8 +9,8 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: orange;
-    /* border: 2px solid green; */
+    background: blue;
+    /* border: 2px solid red; */
     padding: 10px;
 }
 
@@ -108,7 +108,7 @@ ul li {
 }
 
   ul li:hover {
-    background: lightyellow;
+    background: lightgreen;
   }
   #list input {
     padding: 0;
