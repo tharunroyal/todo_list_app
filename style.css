@@ -108,7 +108,7 @@ ul li {
 }
 
   ul li:hover {
-    background: lightgreen;
+    background: red;
   }
   #list input {
     padding: 0;
