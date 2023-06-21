@@ -19,7 +19,7 @@ function addTaskToDOM(task){
     li.innerHTML = `
         <input type="checkbox" id="${task.id}" ${task.done ? 'checked' : ''} class="custom-checkbox">
         <label for="${task.id}">${task.text}</label>
-        <img src="image/trash-solid.svg" class="delete" data-id="${task.id}" />
+        <img src="todo list image/trash1.png" class="delete" data-id="${task.id}" />
     `;
     taskList.append(li);
 }
